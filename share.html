@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Anonymous Message</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Send an Anonymous Message</h1>
+        <form id="messageForm">
+            <textarea id="message" placeholder="Type your message here..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div id="confirmation" class="confirmation" style="display: none;">
+        <h2>Message Sent!</h2>
+        <p>Thank you for sending your anonymous message. Want to create your own link?</p>
+        <p>Join <span id="userCount">100</span> people who have already created their own links!</p>
+        <button onclick="location.href='index.html'">Get Started</button>
+    </div>
+</body>
+</html>
+
